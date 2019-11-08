@@ -1,0 +1,11 @@
+version: '3'
+services:
+  repl:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - ".:/app"
+      - "lib_data:/root/.m2"
+volumes:
+  lib_data:
