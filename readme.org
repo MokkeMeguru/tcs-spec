@@ -1,8 +1,8 @@
 * task-cabinet-server [spec]
   to define data validation
 ** Processing
-   - [ ] user validation [[./doc/user.md]]
-   - [ ] user-task validation  [[./doc/task.md]]
+   - [X] user validation [[./doc/user.md]]
+   - [X] user-task validation  [[./doc/task.md]]
    - [ ] user-token validation  [[./doc/user_token.md]]
    - [ ] user-devicce validation  [[./doc/user_device.md]]
 ** Installation
