@@ -6,4 +6,9 @@
   :dependencies [[org.clojure/clojure "1.10.0"]]
   :main ^:skip-aot task-cabinet-server.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}}
+  :plugins [[lein-environ "1.1.0"]
+            [cider/cider-nrepl "0.23.0-SNAPSHOT"]]
+  :repl-options
+  {:host "0.0.0.0"
+   :port 39998})

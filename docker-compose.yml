@@ -4,6 +4,7 @@ services:
     build: .
     ports:
       - 3000:3000
+      - 39998:39998
     volumes:
       - ".:/app"
       - "lib_data:/root/.m2"
