@@ -11,12 +11,12 @@ opt : opt : optional な値
     - name   
     string 2 文字以上 64 文字未満
     
-    - description [opt]
+    - description [opt]  
     タスクの詳細情報  
     string 2 文字以上 511 文字未満  
     空白文字のみの name は不可
     
-    - category [opt]
+    - category [opt]  
     タスクのカテゴリ情報  
     string 1 文字以上 128 文字未満  
     TODO: スラッシュ区切りで階層構造を作る？
