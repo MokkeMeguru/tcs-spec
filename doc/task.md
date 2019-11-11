@@ -1,14 +1,12 @@
-# user
+# task
 
 ## 構造
 - task
     - name 
-
-        string 2 文字以上 255 文字未満
+    string 2 文字以上 255 文字未満
 
     - deadline
-
-        integer 1572566400000 より大きい (2019/11/1)
+    integer 1572566400000 より大きい (2019/11/1)
     
     - estimate [opt]
 

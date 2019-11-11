@@ -1,10 +1,10 @@
 * task-cabinet-server [spec]
   to define data validation
 ** Processing
-   - [ ] user validation
-   - [ ] user-task validation
-   - [ ] user-token validation
-   - [ ] user-devicce validation
+   - [ ] user validation [[./doc/user.md]]
+   - [ ] user-task validation  [[./doc/task.md]]
+   - [ ] user-token validation  [[./doc/user_token.md]]
+   - [ ] user-devicce validation  [[./doc/user_device.md]]
 ** Installation
 ref. https://github.com/MokkeMeguru/tcs-notification
 
