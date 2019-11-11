@@ -2,13 +2,13 @@
  これは webpush のためのデバイス情報です。
 ## 構造
 - user_device
-    - user_name
+    - user_name  
 
         string 2 文字以上 30 文字以下
-    - created_at
-
-        integer 1572566400000 より大きい (2019/11/1)
-    - endpoint
+    - created_at  
+    PostgreSQL の current\_timestamp を利用 (外部からの書き込み不可)  
+    サーバサイドで完結される値  
+    - endpoint  
 
         string 100 文字以上 512 文字未満
 
