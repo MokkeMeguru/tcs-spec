@@ -9,7 +9,7 @@ opt : opt : optional な値
     TODO: uuid との比較検討
     
     - name   
-    string 2 文字以上 64 文字未満
+    string 2 文字以上 63 文字未満
     
     - description [opt]  
     タスクの詳細情報  
@@ -18,7 +18,7 @@ opt : opt : optional な値
     
     - category [opt]  
     タスクのカテゴリ情報  
-    string 1 文字以上 128 文字未満  
+    string 1 文字以上 255 文字未満  
     TODO: スラッシュ区切りで階層構造を作る？
 
     - deadline  [opt]  
