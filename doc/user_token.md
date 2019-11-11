@@ -5,5 +5,4 @@ opt : optional な値
 - user-token  
   - id  
   integer serial primary な キー
-  
   - 

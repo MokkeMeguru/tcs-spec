@@ -2,8 +2,11 @@
  これは webpush のためのデバイス情報です。
 ## 構造
 - user_device
-    - user_name  
+    - id  
+    integer serial primary なキー  
 
+    - user_name  
+    
         string 2 文字以上 30 文字以下
     - created_at  
     PostgreSQL の current\_timestamp を利用 (外部からの書き込み不可)  
