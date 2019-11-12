@@ -37,8 +37,14 @@
   ([]
    (random-token 127))
   ([length]
+
    (apply str (take length (repeatedly random-char)))))
 
 
 
 
+
+;; get user-tokens
+;; user id
+;; tokens
+;; apply and map = generated token tokens
