@@ -1,7 +1,14 @@
 (ns task-cabinet-server.spec.user-token
-  (:require [clojure.spec.alpha :as s]))
+  (:require [clojure.spec.alpha :as s]
+            [task-cabinet-server.spec.utils :as utils]))
 
-(s/def :x/name string?)
-(s/def ::x (s/keys :req-un [:x/name]))
+(s/def ::id pos-int?)
 
-(s/conform ::x {:name "hoge"})
+(s/def ::user-id pos-int?)
+
+(s/def ::token
+  (s/and string?
+         #(= 127 (count %))
+         #(re-matches #"^[a-zA-Z0-9]*$" %)))
+
+(s/def ::created_at pos-int?)
