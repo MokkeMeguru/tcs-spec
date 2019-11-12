@@ -5,9 +5,9 @@
     - id  
     integer serial primary なキー  
 
-    - user_name  
+    - user_id
+    ref. [./users.md](./users.md)
     
-        string 2 文字以上 30 文字以下
     - created_at  
     PostgreSQL の current\_timestamp を利用 (外部からの書き込み不可)  
     サーバサイドで完結される値  
