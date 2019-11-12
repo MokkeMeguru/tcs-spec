@@ -8,10 +8,10 @@
    - [X] user-devicce validation  [[./doc/user_device.md]]
 
   implementation
-   - [ ] user validation
-   - [ ] user-task validation
-   - [ ] user-token validation
-   - [ ] user-devicce validation
+   - [X] user validation
+   - [X] user-task validation
+   - [X] user-token validation
+   - [X] user-devicce validation
 ** Installation
 ref. https://github.com/MokkeMeguru/tcs-notification
 
