@@ -11,13 +11,12 @@ opt : optional な値
     
     - name  
     string 2 文字以上 30 文字以下  
-    **password と合わせて** 一意な値
     
     - password  
     string 5 文字以上 30 文字以下  
 
     - email  
-    email の形式であること  
+    email の形式であること **UNIQUE**
 
     - created_at  
     PostgreSQL の current\_timestamp を利用 (外部からの書き込み不可)
