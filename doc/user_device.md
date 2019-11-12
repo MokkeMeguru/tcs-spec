@@ -30,9 +30,9 @@
 
             例: "BPT8zHapyg8fbcGJqzNlKXj0gTdSmKOcVn4V7rwaceFwf2h_ZXqiQtLHya7KeMPd3YXTrPoSt39AqtCTrzWX45o"
 ## endpoint の whitelist
-"android.googleapis.com"
-"fcm.googleapis.com"
-"updates.push.services.mozilla.com"
-"updates-autopush.stage.mozaws.net"
-"updates-autopush.dev.mozaws.net"
+"android.googleapis.com"  
+"fcm.googleapis.com"   
+"updates.push.services.mozilla.com"  
+"updates-autopush.stage.mozaws.net"  
+"updates-autopush.dev.mozaws.net"  
 ".notify.windows.com"
