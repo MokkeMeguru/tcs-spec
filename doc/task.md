@@ -14,7 +14,7 @@ opt : opt : optional な値
     
     - description [opt]  
     タスクの詳細情報  
-    string 2 文字以上 511 文字未満  
+    string 1 文字以上 511 文字未満  
     空白文字のみは不可
     
     - category [opt]  
